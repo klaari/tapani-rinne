@@ -16,7 +16,7 @@ export default function Solo() {
                 <div className="breadcrumb-container">
                     <a href="/solo">Solo</a>
                     <div className="breadcrumb-container"></div>
-                </div>{" "}
+                </div>
                 <article>
                     <div id="foghornia" className="album">
                         <p>
@@ -127,7 +127,7 @@ export default function Solo() {
                             <br /> 8. Tammi 6:57
                             <br /> 9. Enkeli taivaan 5:29
                             <br /> 10. Maa on niin kaunis 3:03
-                            <br /> 11. Mary's Boy Child 7:55
+                            <br /> 11. Mary&#39;s Boy Child 7:55
                         </p>
                         <p>
                             Tapani Rinne: soprano saxophone, bass clarinet, alto
@@ -205,7 +205,7 @@ export default function Solo() {
                             <br /> 3. Balance?
                             <br /> 4. Wireless
                             <br /> 5. Isolation
-                            <br /> 6. Anna's Theme
+                            <br /> 6. Anna&#39;s Theme
                             <br /> 7. Arrival
                             <br /> 8. Northern Electric
                             <br /> 9. Out
