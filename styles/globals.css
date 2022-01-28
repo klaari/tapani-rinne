@@ -325,13 +325,13 @@ article {
   width: 250px;
   margin: 7.5% 7.5% 0 0;
 }
-.sidebar-container .gigs {
+.gigs-container .gigs {
   font-family: Work Sans, sans-serif;
   position: relative;
   margin-top: 100px;
   padding: 0 20px;
 }
-.sidebar-container .gigs ul {
+.gigs-container .gigs ul {
   margin: 0;
   padding: 0;
 }
