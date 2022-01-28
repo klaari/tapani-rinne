@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import Sidebar from "@components/Sidebar";
 
 export default function About() {
     return (
@@ -246,7 +247,7 @@ export default function About() {
                     </figcaption>
                 </article>
             </main>
-            <aside className="sidebar-container"></aside>
+            <Sidebar />
             <Footer />
         </div>
     );

@@ -12,6 +12,10 @@ function MyApp({ Component, pageProps }) {
                     name="description"
                     content="Tapani Rinne, finnish musician, composer and record producer"
                 />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;900&display=swap"
+                    rel="stylesheet"
+                />
             </Head>
             <Script src="./assets/main.js" />
             <Component {...pageProps} />

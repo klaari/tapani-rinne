@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import Sidebar from "@components/Sidebar";
 
 export default function Home() {
     return (
@@ -27,30 +28,6 @@ export default function Home() {
                             </em>
                         </p>
                     </div>
-                    <div className="gigs-container">
-                        <div className="gigs">
-                            <ul>
-                                <li>
-                                    <p>
-                                        <strong>27.01.</strong>
-                                        Wimme &amp; Rinne, Loviisa
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <strong>05.02.</strong>
-                                        Wimme &amp; Rinne, Helsinki
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <strong>21.05.</strong>
-                                        Wimme &amp; Rinne, Oulu
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                     <div className="intro-image">
                         <img
                             alt="Kuva"
@@ -59,7 +36,7 @@ export default function Home() {
                     </div>
                 </article>
             </main>
-            <aside className="sidebar-container"> </aside>
+            <Sidebar />
             <Footer />
         </div>
     );

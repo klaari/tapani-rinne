@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import Sidebar from "@components/Sidebar";
 
 export default function Solo() {
     return (
@@ -223,7 +224,7 @@ export default function Solo() {
                     </div>
                 </article>
             </main>
-            <aside className="sidebar-container"></aside>
+            <Sidebar />
             <Footer />
         </div>
     );

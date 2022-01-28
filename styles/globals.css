@@ -1,22 +1,4 @@
 @charset "utf-8";
-/* @font-face { */
-/*   font-family: Tuffy-Bold; */
-/*   src: url(Tuffy-Bold.abde551f.eot); */
-/*   src: url(Tuffy-Bold.abde551f.eot?#iefix) format("embedded-opentype"), */
-/*     url(Tuffy-Bold.ce9e8109.woff) format("woff"), */
-/*     url(Tuffy-Bold.2014c3be.ttf) format("truetype"), */
-/*     url(Tuffy-Bold.ee9a0ee1.svg#Tuffy-Bold) format("svg"); */
-/*   font-weight: 700; */
-/* } */
-/* @font-face { */
-/*   font-family: Tuffy-Regular; */
-/*   font-weight: 400; */
-/*   src: url(Tuffy-Regular.76b303da.eot); */
-/*   src: url(Tuffy-Regular.76b303da.eot?#iefix) format("embedded-opentype"), */
-/*     url(Tuffy-Regular.44d6e7c5.woff) format("woff"), */
-/*     url(Tuffy-Regular.08327c29.ttf) format("truetype"), */
-/*     url(Tuffy-Regular.4a7a3993.svg#Tuffy-Regular) format("svg"); */
-/* } */
 @font-face {
   font-family: Work Sans;
   font-style: normal;
@@ -182,11 +164,14 @@ details[open] summary ~ * {
   }
 }
 footer {
-  padding: 30px 7.5% 7.5%;
+  padding: 45px 7.5%;
   width: 100%;
 }
 address {
-  margin-top: 27.5px;
+  margin-top: 9.9px;
+}
+address p {
+  margin: 0;
 }
 .links {
   display: flex;
@@ -398,7 +383,7 @@ main video {
 }
 main figure,
 main img {
-  margin: 1em calc(7.5% + 350px) 0 7.5%;
+  margin: 1.25em calc(7.5% + 350px) 0 7.5%;
 }
 main .image-text {
   margin: 0 calc(7.5% + 350px) 0 7.5%;
