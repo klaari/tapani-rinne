@@ -7,8 +7,6 @@ export default function Sidebar() {
 
     const isHome = router.pathname === "/";
 
-    console.log(router.pathname, isHome);
-
     return (
         <aside className="sidebar-container">
             <Nav />
