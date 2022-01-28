@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body,
+head {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: "Montserrat", sans-serif; }
+
+.background {
+  display: table;
+  text-align: center;
+  background: #ddd;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  transform-origin: top left;
+  transition: all 0.25s ease-out;
+  position: absolute;
+  top: 0; }
+  .background-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    text-align: right; }
+
+.center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+  width: 100%; }
+
+.label {
+  display: inline-table;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 100%; }
+  .label-center {
+    display: inline-block;
+    vertical-align: middle;
+    background: black;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%; }
+
+.red-stripe,
+.brown-stripe {
+  display: block;
+  position: absolute;
+  height: 0; }
+
+.red-stripe {
+  width: 100px;
+  top: 325px;
+  left: 205px;
+  border-top: 4px solid #d899a2;
+  animation: spinRed 13s linear infinite; }
+
+.brown-stripe {
+  width: 150px;
+  top: 280px;
+  left: 125px;
+  border-top: 4px solid #ae8d5a;
+  animation: spinBrown 24s linear infinite; }
+
+@keyframes spinRed {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+@keyframes spinBrown {
+  from {
+    transform: rotate(45deg); }
+  to {
+    transform: rotate(404deg); } }
+.header {
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.navigation {
+  position: relative;
+  vertical-align: middle;
+  max-height: 0px;
+  top: 15px;
+  right: 0;
+  padding: 0;
+  width: auto;
+  text-align: left;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+  .navigation-container {
+    margin: 0;
+    padding: 20px 30px 0 0; }
+  .navigation-show {
+    opacity: 1;
+    height: auto;
+    max-height: 2000px; }
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding: 0 0 12px 0;
+    display: block; }
+  .navigation ul li {
+    display: block;
+    margin: 0;
+    padding: 0 0 2px 0; }
+  .navigation ul li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none; }
+  .navigation-button {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: right;
+    z-index: 9999;
+    cursor: pointer;
+    user-select: none; }
+
+.header li {
+  display: inline-block;
+  vertical-align: top; }
+
+.element-first {
+  position: absolute;
+  left: 0;
+  width: 50%; }
+
+.element-second {
+  vertical-align: top;
+  display: inline-block;
+  width: calc(100% - 400px); }
+
+.element-third {
+  width: 50%;
+  text-align: right;
+  position: fixed;
+  right: 0; }
+
+.element-second-modal {
+  width: 70%; }
+
+.element-third-modal {
+  width: 0; }
+
+.site-name {
+  display: inline-block;
+  vertical-align: middle; }
+
+.gallery-container {
+  margin: 0 50% 20px 20px; }
+
+.photo-container {
+  display: block;
+  margin: 0 0 20px 0;
+  background: #efefef;
+  padding: 20px;
+  border-radius: 2px; }
+  .photo-container img {
+    max-width: 100%;
+    border-radius: 2px; }
+  .photo-container:after {
+    content: attr(data-text);
+    display: block;
+    margin-top: 20px; }
+
+.hide {
+  display: none; }
+
+.album-container {
+  padding: 30px 0 0 30px; }
+  .album-container ul {
+    padding: 0;
+    font-size: 14px;
+    margin-top: 10px; }
+    .album-container ul ul li {
+      white-space: nowrap;
+      display: block;
+      margin: auto;
+      width: 100% !important;
+      text-align: left;
+      padding: 5px 0 0 0;
+      font-size: 14px; }
+.album-name {
+  padding: 0 0 10px 0;
+  font-weight: 600;
+  letter-spacing: 2px; }
+  .album-name a {
+    text-decoration: none;
+    color: black; }
+  .album-name a:visited {
+    text-decoration: none;
+    color: black; }
+.album-info {
+  font-size: 12px;
+  padding: 9px 0;
+  line-height: calc(100% + 5px); }
+
+.post-content {
+  font-size: 14px; }
+  .post-content a {
+    color: #000; }
+.post-info h1 {
+  font-size: 16.8px !important; }
+
+.footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.some-links {
+  display: inline-grid;
+  grid-template-columns: 60px 60px 60px 60px 60px; }
+  .some-links a {
+    width: 40px;
+    margin: 40px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -19,10 +19,7 @@ export default function About() {
                 </div>{" "}
                 <article>
                     <div className="float-image">
-                        <img
-                            alt="Kuva"
-                            src="https://tapanirinne.com/images/tapani.jpg"
-                        />
+                        <img alt="Kuva" src="/assets//tapani.jpg" />
                         <figcaption className="image-text">
                             © Perttu Saksa
                         </figcaption>
@@ -68,10 +65,7 @@ export default function About() {
                         composer/drummer Edward Vesala’s controversial Sound
                         &amp; Fury workshops.
                     </p>
-                    <img
-                        alt="Kuva"
-                        src="https://tapanirinne.com/images/vesala.jpeg"
-                    />
+                    <img alt="Kuva" src="/assets/vesala.jpeg" />
                     <p>
                         This collaboration, which was to bloom until the guru’s
                         untimely demise in December 1999, commenced with Rinne’s
@@ -238,10 +232,7 @@ export default function About() {
                         saxophone and solemn bass clarinet regularly recalibrate
                         all meters of self-expression.
                     </p>
-                    <img
-                        alt="Kuva"
-                        src="https://tapanirinne.com/images/IMG_0793_ps_650.jpg"
-                    />
+                    <img alt="Kuva" src="/assets/IMG_0793_ps_650.jpg" />
                     <figcaption className="image-text">
                         © Jukka Mantere
                     </figcaption>
