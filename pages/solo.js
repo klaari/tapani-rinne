@@ -27,21 +27,23 @@ export default function Solo() {
                         <div className="album-cover">
                             <img
                                 alt="Graphic Design by Juuso Koponen"
-                                src="./assets/Foghornia.jpg"
+                                src="/assets/Foghornia.jpg"
                             />
                             <figcaption className="image-text">
                                 Graphic Design by Juuso Koponen
                             </figcaption>
                         </div>
-                        <ol>
-                            <li>Foghornia</li>
-                            <li>A Chant</li>
-                            <li>Kirjurinluoto</li>
-                            <li>Erottaja</li>
-                            <li>Ode to Helsinki</li>
-                            <li>Polar</li>
-                            <li>Confirmation</li>
-                        </ol>
+                        <p>
+                            1. Foghornia
+                            <br /> 2. A Chant
+                            <br /> 3. Kirjurinluoto
+                            <br /> 4. Erottaja
+                            <br />
+                            5. Ode to Helsinki
+                            <br /> 6. Polar
+                            <br /> 7. Confirmation
+                            <br />
+                        </p>
                         <p>
                             Tapani Rinne: bass clarinet, effect pedals, tenor
                             saxophone (5) Tuomas Norvio: electronics, live
@@ -68,21 +70,21 @@ export default function Solo() {
                         <div className="album-cover">
                             <img
                                 alt="Visual Design by Ilkka Kärkkäinen"
-                                src="./assets/Radioton.jpg"
+                                src="/assets/Radioton.jpg"
                             />
                             <figcaption className="image-text">
                                 Visual Design by Ilkka Kärkkäinen
                             </figcaption>
                         </div>
-                        <p>A</p>
-                        <ol>
-                            <li>Installation 07:04</li>
-                            <li>Fire Garden 06:42</li>
-                            <li>Nyt 05:02</li>
-                        </ol>
                         <p>
-                            B<br />
-                            4. Meditation 05:38 5. Iris 05:09 6. Here 06:26
+                            A 1. Installation 07:04
+                            <br /> 2. Fire Garden 06:42
+                            <br /> 3. Nyt 05:02
+                        </p>
+                        <p>
+                            B 4. Meditation 05:38
+                            <br /> 5. Iris 05:09
+                            <br /> 6. Here 06:26
                         </p>
                         <p>
                             Tapani Rinne: bass clarinet, effect pedals, alto
@@ -107,26 +109,26 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <img
-                                alt="Drawings & Design by Christer Nuutinen"
-                                src="./assets/SilentNight.jpg"
+                                alt="Drawings &amp; Design by Christer Nuutinen"
+                                src="/assets/SilentNight.jpg"
                             />
                             <figcaption className="image-text">
-                                Drawings & Design by Christer Nuutinen
+                                Drawings &amp; Design by Christer Nuutinen
                             </figcaption>
                         </div>
-                        <ol>
-                            <li>Heinillä härkien 3:29</li>
-                            <li>Silent Night 2:48</li>
-                            <li>We Wish You a Merry Christmas 3:01</li>
-                            <li>Rudolph the Red Nosed Reindeer 4:06</li>
-                            <li>Snowflakes 2:37</li>
-                            <li>November 2:25</li>
-                            <li>Adventtilaulu 4:40</li>
-                            <li>Tammi 6:57</li>
-                            <li>Enkeli taivaan 5:29</li>
-                            <li>Maa on niin kaunis 3:03</li>
-                            <li>Mary&#39;s Boy Child 7:55</li>
-                        </ol>
+                        <p>
+                            1. Heinillä härkien 3:29
+                            <br /> 2. Silent Night 2:48
+                            <br /> 3. We Wish You a Merry Christmas 3:01
+                            <br /> 4. Rudolph the Red Nosed Reindeer 4:06
+                            <br /> 5. Snowflakes 2:37
+                            <br /> 6. November 2:25
+                            <br /> 7. Adventtilaulu 4:40
+                            <br /> 8. Tammi 6:57
+                            <br /> 9. Enkeli taivaan 5:29
+                            <br /> 10. Maa on niin kaunis 3:03
+                            <br /> 11. Mary's Boy Child 7:55
+                        </p>
                         <p>
                             Tapani Rinne: soprano saxophone, bass clarinet, alto
                             clarinet, e-flat clarinet, keyboards, percussion
@@ -153,25 +155,25 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <img
-                                alt="Cover Design & green photo by Leena Kouhia and red photo by Pablo Nublado"
-                                src="./assets/Nectic.jpg"
+                                alt="Cover Design &amp; green photo by Leena Kouhia and red photo by Pablo Nublado"
+                                src="/assets/Nectic.jpg"
                             />
                             <figcaption className="image-text">
-                                Cover Design & green photo by Leena Kouhia and
-                                red photo by Pablo Nublado
+                                Cover Design &amp; green photo by Leena Kouhia
+                                and red photo by Pablo Nublado
                             </figcaption>
                         </div>
-                        <ol>
-                            <li>No One, Just Your Friend</li>
-                            <li>Playing North</li>
-                            <li>Babolat</li>
-                            <li>Nele</li>
-                            <li>Huhu</li>
-                            <li>Black Snow</li>
-                            <li>Elo</li>
-                            <li>Nanos</li>
-                            <li>Grey/Green</li>
-                        </ol>
+                        <p>
+                            1. No One, Just Your Friend
+                            <br /> 2. Playing North
+                            <br /> 3. Babolat
+                            <br /> 4. Nele
+                            <br /> 5. Huhu
+                            <br /> 6. Black Snow
+                            <br /> 7. Elo
+                            <br /> 8. Nanos
+                            <br /> 9. Grey/Green
+                        </p>
                         <p>
                             Tracks 1 &amp; 3 originally created for dance pieces
                             by choreographer Susanna Leinonen Written and
@@ -190,35 +192,37 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <img
-                                alt="Cover Design & photos by Leena Kouhia"
+                                alt="Cover Design &amp; photos by Leena Kouhia"
                                 src="./assets/Insider.jpg"
                             />
                             <figcaption className="image-text">
-                                Cover Design & photos by Leena Kouhia
+                                Cover Design &amp; photos by Leena Kouhia
                             </figcaption>
                         </div>
-                        <ol>
-                            <li>Field</li>
-                            <li>Observer</li>
-                            <li>Balance?</li>
-                            <li>Wireless</li>
-                            <li>Isolation</li>
-                            <li>Anna&#39;s Theme</li>
-                            <li>Arrival</li>
-                            <li>Northern Electric</li>
-                            <li>Out</li>
-                        </ol>
+                        <p>
+                            1. Field
+                            <br /> 2. Observer
+                            <br /> 3. Balance?
+                            <br /> 4. Wireless
+                            <br /> 5. Isolation
+                            <br /> 6. Anna's Theme
+                            <br /> 7. Arrival
+                            <br /> 8. Northern Electric
+                            <br /> 9. Out
+                            <br />
+                        </p>
                         <p>
                             Music for the television film Insider, directed by
-                            Anders Engström, produced by SVT Drama Music
-                            composed and produced by Tapani Rinne Co-producer
-                            Pauli Saastamoinen Tapani Rinne: soprano saxophone,
-                            clarinets, wood flutes, keyboards Pauli
-                            Saastamoinen: programming, keyboards Jouko Laivuori:
-                            piano Marko Ahtisaari: sampling Recorded and mixed
-                            by Pauli Saastamoinen at Aanittamo and Finnvox
-                            Studios Mastered by Pauli Saastamoinen at Finnvox
-                            Cover design and photos: Leena Kouhia Dtp-works:
+                            Anders Engström, produced by SVT Drama <br /> Music
+                            composed and produced by Tapani Rinne <br />
+                            Co-producer Pauli Saastamoinen <br /> Tapani Rinne:
+                            soprano saxophone, clarinets, wood flutes, keyboards
+                            <br /> Pauli Saastamoinen: programming, keyboards
+                            <br /> Jouko Laivuori: piano <br /> Marko Ahtisaari:
+                            sampling <br /> Recorded and mixed by Pauli
+                            Saastamoinen at Aanittamo and Finnvox Studios <br />
+                            Mastered by Pauli Saastamoinen at Finnvox Cover
+                            design and photos: Leena Kouhia <br /> Dtp-works:
                             Marko von Konow
                         </p>
                     </div>

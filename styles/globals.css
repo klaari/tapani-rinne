@@ -456,4 +456,6 @@ main ol li p {
     width: 100%;
   }
 }
-/*# sourceMappingURL=main.css.map */
+.album p {
+  max-width: 500px;
+}

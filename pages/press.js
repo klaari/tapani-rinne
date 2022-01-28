@@ -9,12 +9,12 @@ export default function Press() {
     return (
         <div>
             <Head>
-                <title>Tapani Rinne | About</title>
+                <title>Tapani Rinne | Press</title>
             </Head>
             <Header />
             <main>
                 <div className="breadcrumb-container">
-                    <a href="/about">About</a>
+                    <a href="/press">Press</a>
                     <div className="breadcrumb-container"></div>
                 </div>{" "}
                 <article>
