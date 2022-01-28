@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"; // ES6
 import Head from "next/head";
 import Script from "next/script";
 import "../styles/globals.css";
@@ -17,5 +18,9 @@ function MyApp({ Component, pageProps }) {
         </>
     );
 }
+MyApp.propTypes = {
+    Component: PropTypes.node,
+    pageProps: PropTypes.object,
+};
 
 export default MyApp;
