@@ -102,8 +102,8 @@ parcelRequire = (function (e, r, t, n) {
                 require("../stylus/main.styl");
                 var e = document.querySelector("header"),
                     d = document.querySelector("nav"),
-                    i = null,
-                    t = null,
+                    i = document.querySelector(".gigs-container"),
+                    t = i ? i.querySelector(".gigs") : null,
                     n = document.querySelector(".sidebar-container"),
                     a = window.matchMedia("(min-width: 700px)"),
                     r = window.matchMedia("(max-width: 700px)"),
