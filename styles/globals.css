@@ -431,16 +431,15 @@ main ol li p {
   }
   .album-cover,
   .float-image {
-    width: 100%;
+    max-width: 100%;
     max-width: inherit;
-    margin: 1.25em 0 0 !important;
+    margin: 0;
   }
   .album-cover .image-text,
   .album-cover img,
   .float-image .image-text,
   .float-image img {
     max-width: 100%;
-    width: 100%;
   }
 
   main {
