@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
     );
 }
 MyApp.propTypes = {
-    Component: PropTypes.node,
+    Component: PropTypes.func,
     pageProps: PropTypes.object,
 };
 

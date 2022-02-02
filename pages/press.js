@@ -17,62 +17,89 @@ export default function Press() {
                     <a href="/press">Press</a>
                     <div className="breadcrumb-container"></div>
                 </div>{" "}
-                <article>
-                    <img
+                <article className="images">
+                    <Image
+                        className="image"
                         alt="© Sami Mannerheimo"
-                        src="./assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg"
+                        src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg"
+                        width="5813"
+                        height="3880"
                     />
                     <figcaption className="image-text">
                         © Sami Mannerheimo
                     </figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="© Sami Mannerheimo"
-                        src="./assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8939e.jpg"
+                        src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8939e.jpg"
+                        width="5611"
+                        height="3746"
                     />
                     <figcaption className="image-text">
                         © Sami Mannerheimo
                     </figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="Flowers of Life © Ira Aaltonen"
                         src="/assets/radioton/PHOTOS_files/25813764758_44329e70ae_k.jpg"
+                        width="2048"
+                        height="1367"
                     />
                     <figcaption className="image-text">
                         © Ira Aaltonen
                     </figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="© Ossi Kajas"
                         src="/assets/radioton/PHOTOS_files/Tapani_print_OK-2_960.jpg"
+                        width="960"
+                        height="960"
                     />
                     <figcaption className="image-text">© Ossi Kajas</figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="© Ossi Kajas"
                         src="/assets/radioton/PHOTOS_files/Tapani_print_OK-6042_960.jpg"
+                        width="960"
+                        height="960"
                     />
                     <figcaption className="image-text">© Ossi Kajas</figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="© Studio 1851"
                         src="/assets/radioton/PHOTOS_files/IMG_1936_studio_1851_500.jpg"
+                        width="500"
+                        height="700"
                     />
                     <figcaption className="image-text">
                         © Studio 1851
                     </figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="© Tero Ruukki"
                         src="/assets/radioton/PHOTOS_files/Rinne-3_960.jpg"
+                        width="960"
+                        height="1280"
                     />
                     <figcaption className="image-text">
                         © Tero Ruukki
                     </figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="Arboria © Mikko Koistinen"
                         src="/assets/radioton/PHOTOS_files/IMG_9820_rbvai9.jpg"
+                        width="500"
+                        height="500"
                     />
                     <figcaption className="image-text">
                         Arboria © Mikko Koistinen
                     </figcaption>
-                    <img
+                    <Image
+                        className="image"
                         alt="© Barka Fabianova"
                         src="/assets/radioton/PHOTOS_files/BarkaFabianova.jpg"
+                        width="533"
+                        height="800"
                     />
                     <figcaption className="image-text">
                         © Barka Fabianova

@@ -25,9 +25,11 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <img
+                            <Image
                                 alt="Graphic Design by Juuso Koponen"
                                 src="/assets/Foghornia.jpg"
+                                width="500"
+                                height="500"
                             />
                             <figcaption className="image-text">
                                 Graphic Design by Juuso Koponen
@@ -68,21 +70,27 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <img
+                            <Image
                                 alt="Visual Design by Ilkka Kärkkäinen"
                                 src="/assets/Radioton.jpg"
+                                width="500"
+                                height="500"
                             />
                             <figcaption className="image-text">
                                 Visual Design by Ilkka Kärkkäinen
                             </figcaption>
                         </div>
                         <p>
-                            A 1. Installation 07:04
+                            A
+                            <br />
+                            1. Installation 07:04
                             <br /> 2. Fire Garden 06:42
                             <br /> 3. Nyt 05:02
                         </p>
                         <p>
-                            B 4. Meditation 05:38
+                            B
+                            <br />
+                            4. Meditation 05:38
                             <br /> 5. Iris 05:09
                             <br /> 6. Here 06:26
                         </p>
@@ -108,9 +116,11 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <img
+                            <Image
                                 alt="Drawings &amp; Design by Christer Nuutinen"
                                 src="/assets/SilentNight.jpg"
+                                width="500"
+                                height="500"
                             />
                             <figcaption className="image-text">
                                 Drawings &amp; Design by Christer Nuutinen
@@ -154,9 +164,11 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <img
+                            <Image
                                 alt="Cover Design &amp; green photo by Leena Kouhia and red photo by Pablo Nublado"
                                 src="/assets/Nectic.jpg"
+                                width="500"
+                                height="500"
                             />
                             <figcaption className="image-text">
                                 Cover Design &amp; green photo by Leena Kouhia
@@ -191,9 +203,11 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <img
+                            <Image
                                 alt="Cover Design &amp; photos by Leena Kouhia"
-                                src="./assets/Insider.jpg"
+                                src="/assets/Insider.jpg"
+                                width="500"
+                                height="500"
                             />
                             <figcaption className="image-text">
                                 Cover Design &amp; photos by Leena Kouhia

@@ -59,9 +59,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="intro-image">
-                        <img
-                            alt="Kuva"
-                            src="./assets/JuhaTapani_JuhaTapani_ER_00107_Square_FullRes.jpg"
+                        <Image
+                            alt="Tapani & Juha"
+                            src="/assets/JuhaTapani_JuhaTapani_ER_00107_Square_FullRes.jpg"
+                            width="1600"
+                            height="1600"
                         />
                     </div>
                 </article>

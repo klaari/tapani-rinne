@@ -211,7 +211,7 @@ header {
 }
 .breadcrumb-container {
   font-size: 150%;
-  margin: 0.75em 7.5% 0;
+  margin: 0.75em 0 0;
 }
 .breadcrumb-container a:first-of-type:after {
   content: "";
@@ -349,6 +349,7 @@ article {
 .float-image {
   float: left;
   margin: 0 1em 0 7.5% !important;
+  margin-left: 0 !important;
 }
 .album {
   margin: 2em 0 0;
@@ -367,6 +368,7 @@ article {
   display: flex;
   flex-flow: column;
   margin: 1.25em calc(7.5% + 350px) 0 7.5%;
+  margin-left: 0;
 }
 .album-cover *,
 .float-image * {
@@ -383,21 +385,19 @@ article {
 }
 main {
   flex-grow: 1;
+  margin: 0 calc(7.5% + 350px) 0 7.5%;
 }
 main img,
+main .image,
 main video {
-  width: calc(85% - 350px);
-}
-main figure,
-main img {
-  margin: 1.25em calc(7.5% + 350px) 0 7.5%;
+  max-width: 100%;
 }
 main .image-text {
   margin: 0 calc(7.5% + 350px) 0 7.5%;
 }
 main p {
-  margin: 1.25em calc(7.5% + 350px) 0 7.5%;
   line-height: 1.5em;
+  max-width: 960px;
 }
 main ol,
 main ul {
