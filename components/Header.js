@@ -9,6 +9,7 @@ export default function Header() {
             </Link>
             <input name="toggle" type="checkbox" />
             <label htmlFor="toggle"></label>
+            <Nav />
         </header>
     );
 }

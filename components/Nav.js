@@ -7,7 +7,9 @@ export default function Nav() {
                 <li>
                     <details className="Solo">
                         <summary>
-                            <a href="solo">Solo</a>
+                            <Link href="/solo">
+                                <a href="solo">Solo</a>
+                            </Link>
                         </summary>
                         <ul>
                             <li>

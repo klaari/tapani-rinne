@@ -59,43 +59,7 @@ parcelRequire = (function (e, r, t, n) {
     return f;
 })(
     {
-        vMKL: [
-            function (require, module, exports) {},
-            {
-                "./../../dist/fonts/Tuffy-Bold.eot": [
-                    ["Tuffy-Bold.abde551f.eot", "TKaX"],
-                    "TKaX",
-                ],
-                "./../../dist/fonts/Tuffy-Bold.woff": [
-                    ["Tuffy-Bold.ce9e8109.woff", "Nbus"],
-                    "Nbus",
-                ],
-                "./../../dist/fonts/Tuffy-Bold.ttf": [
-                    ["Tuffy-Bold.2014c3be.ttf", "g9Ou"],
-                    "g9Ou",
-                ],
-                "./../../dist/fonts/Tuffy-Bold.svg": [
-                    ["Tuffy-Bold.ee9a0ee1.svg", "JYnB"],
-                    "JYnB",
-                ],
-                "./../../dist/fonts/Tuffy-Regular.eot": [
-                    ["Tuffy-Regular.76b303da.eot", "SBUy"],
-                    "SBUy",
-                ],
-                "./../../dist/fonts/Tuffy-Regular.woff": [
-                    ["Tuffy-Regular.44d6e7c5.woff", "vagG"],
-                    "vagG",
-                ],
-                "./../../dist/fonts/Tuffy-Regular.ttf": [
-                    ["Tuffy-Regular.08327c29.ttf", "tLFO"],
-                    "tLFO",
-                ],
-                "./../../dist/fonts/Tuffy-Regular.svg": [
-                    ["Tuffy-Regular.4a7a3993.svg", "Xf9p"],
-                    "Xf9p",
-                ],
-            },
-        ],
+        vMKL: [function (require, module, exports) {}, {}],
         epB2: [
             function (require, module, exports) {
                 "use strict";

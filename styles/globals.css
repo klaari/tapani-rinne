@@ -196,6 +196,9 @@ address p {
   .links {
     width: 100%;
   }
+  .links a {
+    width: 12.5%;
+  }
 }
 header {
   letter-spacing: 0.05em;
@@ -274,10 +277,6 @@ figure {
   width: 100%;
   margin: 20px 0 0;
 }
-.intro-image img {
-  margin-top: 0;
-  border-radius: 5px;
-}
 .image-text {
   padding: 7px 0;
   color: #000;
@@ -325,28 +324,18 @@ article {
   width: 250px;
   margin: 7.5% 7.5% 0 0;
 }
-@media screen and (min-width: 700px) {
-  .gigs-container {
-    position: absolute;
-    top: 140px;
-    right: 0;
-    width: 250px;
-    margin: 7.5% 7.5% 0 0;
-  }
-}
-.gigs-container .gigs {
+.sidebar-container .gigs {
   font-family: Work Sans, sans-serif;
   position: relative;
   margin-top: 100px;
   padding: 0 20px;
 }
-.gigs-container .gigs ul {
+.sidebar-container .gigs ul {
   margin: 0;
   padding: 0;
 }
 .gigs {
   font-size: 14px;
-  margin-top: 103px;
 }
 .gigs ul {
   padding: 0;
@@ -354,12 +343,20 @@ article {
 .gigs ul li p {
   margin: 10px 0;
 }
+.gigs strong {
+  display: block;
+}
 .float-image {
   float: left;
   margin: 0 1em 0 7.5% !important;
 }
 .album {
-  margin: 0 0 3em;
+  margin: 2em 0 0;
+  padding: 1em 0 0;
+}
+.album:first-of-type {
+  padding-top: 0.5em;
+  margin-top: 0;
 }
 .album > p a {
   font-size: 2em;
@@ -402,11 +399,11 @@ main p {
   margin: 1.25em calc(7.5% + 350px) 0 7.5%;
   line-height: 1.5em;
 }
+main ol,
 main ul {
   margin: 0.75em calc(7.5% + 350px) 0 7.5%;
 }
 main ol {
-  margin: 0.75em calc(7.5% + 350px) 0 calc(7.5% + 1em);
   line-height: 1.5em;
   padding: 15px 0;
 }
@@ -448,11 +445,9 @@ main ol li p {
   main p {
     margin: 1.25em 20px 0;
   }
+  main ol,
   main ul {
     margin: 0.75em 20px 0;
-  }
-  main ol {
-    margin: 0.75em 20px 0 calc(20px + 1em);
   }
   main figure,
   main img {
@@ -466,6 +461,4 @@ main ol li p {
     width: 100%;
   }
 }
-.album p {
-  max-width: 500px;
-}
+/*# sourceMappingURL=main.css.map */

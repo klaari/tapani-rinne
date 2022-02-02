@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
     return (
+
         <footer>
             <div className="links">
                 <a href="https://www.soundcloud.com">
