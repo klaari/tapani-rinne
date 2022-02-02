@@ -442,6 +442,11 @@ main ol li p {
     max-width: 100%;
     width: 100%;
   }
+
+  main {
+    margin: 0;
+  }
+
   main p {
     margin: 1.25em 20px 0;
   }
