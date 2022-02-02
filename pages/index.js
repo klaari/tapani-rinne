@@ -61,7 +61,7 @@ export default function Home() {
                     <div className="intro-image">
                         <Image
                             alt="Tapani & Juha"
-                            src="/assets/JuhaTapani_JuhaTapani_ER_00107_Square_FullRes.jpg"
+                            src="/assets/JuhaTapani_JuhaTapani_ER_00107_Square.jpg"
                             width="1600"
                             height="1600"
                         />
