@@ -343,8 +343,9 @@ article {
 .gigs ul li p {
   margin: 10px 0;
 }
-.gigs strong {
+.gigs time {
   display: block;
+  font-weight: bold;
 }
 .float-image {
   float: left;

@@ -1,11 +1,14 @@
+import PropTypes from "prop-types"; // ES6
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import Sidebar from "@components/Sidebar";
+import Event from "@components/Event";
+import Api from "@lib/Api";
 
-export default function Home() {
+export default function Home({ events }) {
     return (
         <div>
             <Head>
@@ -31,30 +34,9 @@ export default function Home() {
                     <div className="gigs-container">
                         <div className="gigs">
                             <ul>
-                                <li>
-                                    <p>
-                                        <strong>05.02.</strong> Wimme &amp;
-                                        Rinne, Helsinki
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <strong>21.05.</strong> Wimme &amp;
-                                        Rinne, Oulu
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <strong>03.06.</strong> Tapani Rinne
-                                        &amp; Sid Hille, Helsinki
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <strong>27.08.</strong> RinneRadio,
-                                        Kittilä
-                                    </p>
-                                </li>
+                                {events.map((event) => (
+                                    <Event key={event.id} event={event} />
+                                ))}
                             </ul>
                         </div>
                     </div>
@@ -72,4 +54,18 @@ export default function Home() {
             <Footer />
         </div>
     );
+}
+
+Home.propTypes = {
+    events: PropTypes.array,
+};
+
+export async function getStaticProps() {
+    const events = await Api.getEvents();
+    return {
+        props: {
+            events: events || [],
+        },
+        revalidate: 10, // In seconds
+    };
 }
