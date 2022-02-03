@@ -4,9 +4,9 @@ import Nav from "@components/Nav";
 export default function Header() {
     return (
         <header>
-            <Link href="/">
-                <a className="site-name">Tapani Rinne</a>
-            </Link>
+            <a href="/" className="site-name">
+                Tapani Rinne
+            </a>
             <input name="toggle" type="checkbox" />
             <label htmlFor="toggle"></label>
             <Nav />
