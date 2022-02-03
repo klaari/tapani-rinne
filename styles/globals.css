@@ -368,7 +368,7 @@ article {
   max-width: max-content;
   display: flex;
   flex-flow: column;
-  margin: 1.25em calc(7.5% + 350px) 0 7.5%;
+  /* margin: 1.25em calc(7.5% + 350px) 0 7.5%; */
   margin-left: 0;
 }
 .album-cover *,
@@ -417,6 +417,10 @@ main ol li {
 main ol li p {
   margin: 0;
 }
+
+.image-container {
+}
+
 @media screen and (max-width: 700px) {
   .intro-text {
     margin-bottom: 0;
@@ -439,6 +443,10 @@ main ol li p {
   .float-image .image-text,
   .float-image img {
     max-width: 100%;
+  }
+
+  .album {
+    max-width: 500px;
   }
 
   main {

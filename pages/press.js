@@ -19,7 +19,7 @@ export default function Press() {
                 </div>{" "}
                 <article className="images">
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Sami Mannerheimo"
                         src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg"
@@ -30,7 +30,7 @@ export default function Press() {
                         © Sami Mannerheimo
                     </figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Sami Mannerheimo"
                         src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8939e.jpg"
@@ -41,7 +41,7 @@ export default function Press() {
                         © Sami Mannerheimo
                     </figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="Flowers of Life © Ira Aaltonen"
                         src="/assets/radioton/PHOTOS_files/25813764758_44329e70ae_k.jpg"
@@ -52,7 +52,7 @@ export default function Press() {
                         © Ira Aaltonen
                     </figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Ossi Kajas"
                         src="/assets/radioton/PHOTOS_files/Tapani_print_OK-2_960.jpg"
@@ -61,7 +61,7 @@ export default function Press() {
                     />
                     <figcaption className="image-text">© Ossi Kajas</figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Ossi Kajas"
                         src="/assets/radioton/PHOTOS_files/Tapani_print_OK-6042_960.jpg"
@@ -70,7 +70,7 @@ export default function Press() {
                     />
                     <figcaption className="image-text">© Ossi Kajas</figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Studio 1851"
                         src="/assets/radioton/PHOTOS_files/IMG_1936_studio_1851_500.jpg"
@@ -81,7 +81,7 @@ export default function Press() {
                         © Studio 1851
                     </figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Tero Ruukki"
                         src="/assets/radioton/PHOTOS_files/Rinne-3_960.jpg"
@@ -92,7 +92,7 @@ export default function Press() {
                         © Tero Ruukki
                     </figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="Arboria © Mikko Koistinen"
                         src="/assets/radioton/PHOTOS_files/IMG_9820_rbvai9.jpg"
@@ -103,7 +103,7 @@ export default function Press() {
                         Arboria © Mikko Koistinen
                     </figcaption>
                     <Image
-                        layout="responsive"
+                        layout="intrinsic"
                         className="image"
                         alt="© Barka Fabianova"
                         src="/assets/radioton/PHOTOS_files/BarkaFabianova.jpg"
