@@ -26,6 +26,7 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <Image
+                                layout="responsive"
                                 alt="Graphic Design by Juuso Koponen"
                                 src="/assets/Foghornia.jpg"
                                 width="500"
@@ -71,6 +72,7 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <Image
+                                layout="responsive"
                                 alt="Visual Design by Ilkka Kärkkäinen"
                                 src="/assets/Radioton.jpg"
                                 width="500"
@@ -117,6 +119,7 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <Image
+                                layout="responsive"
                                 alt="Drawings &amp; Design by Christer Nuutinen"
                                 src="/assets/SilentNight.jpg"
                                 width="500"
@@ -165,10 +168,11 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <Image
+                                layout="responsive"
                                 alt="Cover Design &amp; green photo by Leena Kouhia and red photo by Pablo Nublado"
                                 src="/assets/Nectic.jpg"
-                                width="500"
-                                height="500"
+                                width={500}
+                                height={500}
                             />
                             <figcaption className="image-text">
                                 Cover Design &amp; green photo by Leena Kouhia
@@ -204,6 +208,7 @@ export default function Solo() {
                         </p>
                         <div className="album-cover">
                             <Image
+                                layout="responsive"
                                 alt="Cover Design &amp; photos by Leena Kouhia"
                                 src="/assets/Insider.jpg"
                                 width="500"

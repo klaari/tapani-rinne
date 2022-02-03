@@ -42,6 +42,7 @@ export default function Home({ events }) {
                     </div>
                     <div className="intro-image">
                         <Image
+                            layout="responsive"
                             alt="Tapani & Juha"
                             src="/assets/JuhaTapani_JuhaTapani_ER_00107_Square.jpg"
                             width="1600"

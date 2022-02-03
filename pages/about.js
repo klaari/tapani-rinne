@@ -20,6 +20,7 @@ export default function About() {
                 <article>
                     <div className="float-image">
                         <Image
+                            layout="responsive"
                             alt="Tapani Rinne"
                             src="/assets/tapani.jpg"
                             width="200"
@@ -71,6 +72,7 @@ export default function About() {
                         &amp; Fury workshops.
                     </p>
                     <Image
+                        layout="responsive"
                         alt="Vesala"
                         src="/assets/vesala.jpeg"
                         width="373"
