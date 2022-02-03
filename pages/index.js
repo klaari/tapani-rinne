@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"; // ES6
+import PropTypes from "prop-types";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,6 +46,7 @@ export default function Home({ events }) {
                             src="/assets/JuhaTapani_JuhaTapani_ER_00107_Square.jpg"
                             width="1600"
                             height="1600"
+                            priority
                         />
                     </div>
                 </article>
