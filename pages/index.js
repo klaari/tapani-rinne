@@ -40,7 +40,7 @@ export default function Home({ events }) {
                             </ul>
                         </div>
                     </div>
-                    <div className="intro-image">
+                    <div className="image-container">
                         <Image
                             layout="responsive"
                             alt="Tapani & Juha"

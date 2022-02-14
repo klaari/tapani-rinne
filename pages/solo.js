@@ -25,13 +25,15 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <Image
-                                layout="intrinsic"
-                                alt="Graphic Design by Juuso Koponen"
-                                src="/assets/Foghornia.jpg"
-                                width="500"
-                                height="500"
-                            />
+                            <div className="image-container">
+                                <Image
+                                    layout="intrinsic"
+                                    alt="Graphic Design by Juuso Koponen"
+                                    src="/assets/Foghornia.jpg"
+                                    width="500"
+                                    height="500"
+                                />
+                            </div>
                             <figcaption className="image-text">
                                 Graphic Design by Juuso Koponen
                             </figcaption>
@@ -71,13 +73,15 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <Image
-                                layout="intrinsic"
-                                alt="Visual Design by Ilkka Kärkkäinen"
-                                src="/assets/Radioton.jpg"
-                                width="500"
-                                height="500"
-                            />
+                            <div className="image-container">
+                                <Image
+                                    layout="intrinsic"
+                                    alt="Visual Design by Ilkka Kärkkäinen"
+                                    src="/assets/Radioton.jpg"
+                                    width="500"
+                                    height="500"
+                                />
+                            </div>
                             <figcaption className="image-text">
                                 Visual Design by Ilkka Kärkkäinen
                             </figcaption>
@@ -118,14 +122,16 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <Image
-                                layout="intrinsic"
-                                alt="Drawings &amp; Design by Christer Nuutinen"
-                                src="/assets/SilentNight.jpg"
-                                width={500}
-                                height={500}
-                                style={{ maxWidth: "500px" }}
-                            />
+                            <div className="image-container">
+                                <Image
+                                    layout="intrinsic"
+                                    alt="Drawings &amp; Design by Christer Nuutinen"
+                                    src="/assets/SilentNight.jpg"
+                                    width={500}
+                                    height={500}
+                                    style={{ maxWidth: "500px" }}
+                                />
+                            </div>
                             <figcaption className="image-text">
                                 Drawings &amp; Design by Christer Nuutinen
                             </figcaption>
@@ -168,13 +174,15 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <Image
-                                layout="intrinsic"
-                                alt="Cover Design &amp; green photo by Leena Kouhia and red photo by Pablo Nublado"
-                                src="/assets/Nectic.jpg"
-                                width={500}
-                                height={500}
-                            />
+                            <div className="image-container">
+                                <Image
+                                    layout="intrinsic"
+                                    alt="Cover Design &amp; green photo by Leena Kouhia and red photo by Pablo Nublado"
+                                    src="/assets/Nectic.jpg"
+                                    width={500}
+                                    height={500}
+                                />
+                            </div>
                             <figcaption className="image-text">
                                 Cover Design &amp; green photo by Leena Kouhia
                                 and red photo by Pablo Nublado
@@ -208,13 +216,15 @@ export default function Solo() {
                             </a>
                         </p>
                         <div className="album-cover">
-                            <Image
-                                layout="intrinsic"
-                                alt="Cover Design &amp; photos by Leena Kouhia"
-                                src="/assets/Insider.jpg"
-                                width="500"
-                                height="500"
-                            />
+                            <div className="image-container">
+                                <Image
+                                    layout="intrinsic"
+                                    alt="Cover Design &amp; photos by Leena Kouhia"
+                                    src="/assets/Insider.jpg"
+                                    width="500"
+                                    height="500"
+                                />
+                            </div>
                             <figcaption className="image-text">
                                 Cover Design &amp; photos by Leena Kouhia
                             </figcaption>

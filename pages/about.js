@@ -71,13 +71,15 @@ export default function About() {
                         composer/drummer Edward Vesala’s controversial Sound
                         &amp; Fury workshops.
                     </p>
-                    <Image
-                        layout="responsive"
-                        alt="Vesala"
-                        src="/assets/vesala.jpeg"
-                        width="373"
-                        height="282"
-                    />
+                    <div className="image-container">
+                        <Image
+                            layout="responsive"
+                            alt="Vesala"
+                            src="/assets/vesala.jpeg"
+                            width="373"
+                            height="282"
+                        />
+                    </div>
                     <p>
                         This collaboration, which was to bloom until the guru’s
                         untimely demise in December 1999, commenced with Rinne’s
@@ -244,12 +246,14 @@ export default function About() {
                         saxophone and solemn bass clarinet regularly recalibrate
                         all meters of self-expression.
                     </p>
-                    <Image
-                        alt="Tapani Rinne"
-                        src="/assets/IMG_0793_ps_650.jpg"
-                        width="650"
-                        height="433"
-                    />
+                    <div className="image-container">
+                        <Image
+                            alt="Tapani Rinne"
+                            src="/assets/IMG_0793_ps_650.jpg"
+                            width="650"
+                            height="433"
+                        />
+                    </div>
                     <figcaption className="image-text">
                         © Jukka Mantere
                     </figcaption>
