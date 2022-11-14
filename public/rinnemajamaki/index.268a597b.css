@@ -1,0 +1,188 @@
+@font-face {
+  font-family: Archivo;
+  src: url("Archivo-Regular.24a551e7.ttf");
+  src: url("Archivo-Bold.4bd0b46c.ttf");
+  src: url("Archivo-SemiBold.e1c61bb4.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  color: #000;
+  letter-spacing: .0375em;
+  margin: 0;
+  padding: 0;
+  font-family: Archive, sans-serif;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+html {
+  -webkit-tap-highlight-color: #0000;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding: 60px 60px 0;
+}
+
+main {
+  padding: 40px 60px 0;
+}
+
+main > ul li {
+  margin: 0 0 20px;
+}
+
+main > ul li:last-child {
+  margin: 0;
+}
+
+footer {
+  padding: 0 60px 60px;
+  font-weight: 800;
+}
+
+section:not(:first-child) {
+  margin: 20px 0 0;
+}
+
+section ul li {
+  font-size: 14px;
+}
+
+a {
+  font-weight: bold;
+}
+
+p {
+  padding: 0 0 15px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h2 {
+  margin: 20px 0 0;
+}
+
+h2:first-child {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul:not(:first-child) {
+  margin: 10px 0 0;
+}
+
+nav {
+  margin: 40px 0 0;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px 0 0;
+  display: inline-block;
+  transform: rotate(-23deg);
+}
+
+figure {
+  margin: 20px 0;
+}
+
+figure:first-child {
+  margin: 0 0 20px;
+}
+
+figure figcaption {
+  padding: 15px 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+figure img + figcaption {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+figure img {
+  width: 498px;
+}
+
+.video {
+  padding: 56.25% 0 0;
+  position: relative;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.info figure + ul li {
+  font-size: 18px;
+}
+
+.info ul:first-child li {
+  font-weight: 800;
+  font-size: 18px !important;
+}
+
+.credits p {
+  padding: 0;
+}
+
+.credits p + ul {
+  margin: 5px 0 20px;
+}
+
+.credits ul {
+  margin: 0 0 20px;
+}
+
+.articles article:not(:first-child) {
+  margin: 40px 0 0;
+}
+
+.articles article h2 {
+  margin: 0 0 20px;
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    justify-content: space-between;
+  }
+
+  header {
+    padding: 30px 30px 0;
+  }
+
+  main {
+    padding: 40px 30px 0;
+  }
+
+  footer {
+    padding: 0 30px 30px;
+  }
+
+  figure img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.268a597b.css.map */

@@ -4,4 +4,5 @@ module.exports = {
         defaultLocale: "en",
     },
     reactStrictMode: true,
+    trailingSlash: true,
 };
