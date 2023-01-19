@@ -8,7 +8,7 @@
 * {
   box-sizing: border-box;
   color: #000;
-  letter-spacing: .0375em;
+  letter-spacing: 0.0375em;
   margin: 0;
   padding: 0;
   font-family: Archive, sans-serif;
@@ -48,6 +48,7 @@ footer {
 
 section:not(:first-child) {
   margin: 20px 0 0;
+  max-width: 650px;
 }
 
 section ul li {
