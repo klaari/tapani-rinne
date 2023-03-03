@@ -22,6 +22,45 @@ export default function Press() {
                         <Image
                             layout="intrinsic"
                             className="image"
+                            alt="© Tero Vuorinen"
+                            src="/assets/TeroVuorinen1_1600.jpg"
+                            width="1600"
+                            height="1054"
+                        />
+                    </div>
+                    <figcaption className="image-text">
+                        © Tero Vuorinen
+                    </figcaption>
+                    <div className="image-container">
+                        <Image
+                            layout="intrinsic"
+                            className="image"
+                            alt="© Tero Vuorinen"
+                            src="/assets/TeroVuorinen2_1600.jpg"
+                            width="1600"
+                            height="1043"
+                        />
+                    </div>
+                    <figcaption className="image-text">
+                        © Tero Vuorinen
+                    </figcaption>
+                    <div className="image-container">
+                        <Image
+                            layout="intrinsic"
+                            className="image"
+                            alt="© Antti Aimo-Koivisto"
+                            src="/assets/AnttiAimo-Koivisto_1600.jpg"
+                            width="1600"
+                            height="1039"
+                        />
+                    </div>
+                    <figcaption className="image-text">
+                        © Antti Aimo-Koivisto
+                    </figcaption>
+                    <div className="image-container">
+                        <Image
+                            layout="intrinsic"
+                            className="image"
                             alt="© Sami Mannerheimo"
                             src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg"
                             width="5813"
@@ -117,19 +156,6 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         Arboria © Mikko Koistinen
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Barka Fabianova"
-                            src="/assets/radioton/PHOTOS_files/BarkaFabianova.jpg"
-                            width="533"
-                            height="800"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Barka Fabianova
                     </figcaption>
                 </article>
             </main>
