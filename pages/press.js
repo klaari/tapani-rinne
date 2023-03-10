@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Head from "next/head";
 import Image from "next/legacy/image";
 import Header from "@components/Header";
@@ -19,6 +20,9 @@ function DownloadButton({ handleClick }) {
         </a>
     );
 }
+DownloadButton.propTypes = {
+    handleClick: PropTypes.func,
+};
 
 export default function Press() {
     return (
