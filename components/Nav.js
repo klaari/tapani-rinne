@@ -7,35 +7,25 @@ export default function Nav() {
                 <li>
                     <details className="Solo">
                         <summary>
-                            <Link href="/solo">
-                                <a href="solo">Solo</a>
-                            </Link>
+                            <Link href="/solo">Solo</Link>
                         </summary>
                         <ul>
                             <li>
-                                <Link href="/solo#foghornia">
-                                    <a>Foghornia</a>
-                                </Link>
+                                <Link href="/solo#foghornia">Foghornia</Link>
                             </li>
                             <li>
-                                <Link href="/solo#radioton">
-                                    <a>Radioton</a>
-                                </Link>
+                                <Link href="/solo#radioton">Radioton</Link>
                             </li>
                             <li>
                                 <Link href="/solo#silent_night">
-                                    <a>Silent Night</a>
+                                    Silent Night
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/solo#nectic">
-                                    <a>Nectic</a>
-                                </Link>
+                                <Link href="/solo#nectic">Nectic</Link>
                             </li>
                             <li>
-                                <Link href="/solo#insider">
-                                    <a>Insider</a>
-                                </Link>
+                                <Link href="/solo#insider">Insider</Link>
                             </li>
                         </ul>
                     </details>
@@ -46,41 +36,37 @@ export default function Nav() {
                         <ul>
                             <li>
                                 <Link href="https://rinneradio.com">
-                                    <a>RinneRadio</a>
+                                    RinneRadio
                                 </Link>
                             </li>
                             <li>
                                 <Link href="https://wimme-rinne.com">
-                                    <a>Wimme &amp; Rinne</a>
+                                    Wimme &amp; Rinne
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/rinnemajamaki">
-                                    <a>Rinne &amp; Majamäki</a>
+                                    Rinne &amp; Majamäki
                                 </Link>
                             </li>
                             <li>
                                 <Link href="https://slowhill.com">
-                                    <a>SlowHill</a>
+                                    SlowHill
                                 </Link>
                             </li>
                             <li>
                                 <Link href="https://hushhushrecords.bandcamp.com/album/open">
-                                    <a>Tapani Rinne &amp; Juha Mäki-Patola</a>
+                                    Tapani Rinne &amp; Juha Mäki-Patola
                                 </Link>
                             </li>
                         </ul>
                     </details>
                 </li>
                 <li>
-                    <Link href="/about">
-                        <a>About</a>
-                    </Link>
+                    <Link href="/about">About</Link>
                 </li>
                 <li>
-                    <Link href="/press">
-                        <a>Press</a>
-                    </Link>
+                    <Link href="/press">Press</Link>
                 </li>
             </ul>
         </nav>
