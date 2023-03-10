@@ -3,6 +3,22 @@ import Image from "next/legacy/image";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import Sidebar from "@components/Sidebar";
+import { saveAs } from "file-saver";
+
+const saveFile = (path, name) => {
+    saveAs(path, name);
+};
+
+function DownloadButton({ handleClick }) {
+    return (
+        <a
+            style={{ paddingLeft: "12px", cursor: "pointer" }}
+            onClick={handleClick}
+        >
+            ↓ Download
+        </a>
+    );
+}
 
 export default function Press() {
     return (
@@ -29,7 +45,16 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Tero Vuorinen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/TeroVuorinen1.jpg",
+                                    "TapaniRinne-TeroVuorinen1"
+                                )
+                            }
+                        />
                     </figcaption>
+
                     <div className="image-container">
                         <Image
                             layout="intrinsic"
@@ -42,6 +67,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Tero Vuorinen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/TeroVuorinen2.jpg",
+                                    "TapaniRinne-TeroVuorinen2"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -55,6 +88,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Antti Aimo-Koivisto
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/AnttiAimo-Koivisto.jpg",
+                                    "TapaniRinne-AnttiAimo-Koivisto"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -68,6 +109,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Sami Mannerheimo
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg",
+                                    "TapaniRinne-SamiMannerheimo"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -81,6 +130,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Sami Mannerheimo
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8939e.jpg",
+                                    "TapaniRinne-SamiMannerheimo2"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -94,6 +151,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Ira Aaltonen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/radioton/PHOTOS_files/25813764758_44329e70ae_k.jpg",
+                                    "TapaniRinne-IraAaltonen"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -105,7 +170,17 @@ export default function Press() {
                             height="960"
                         />
                     </div>
-                    <figcaption className="image-text">© Ossi Kajas</figcaption>
+                    <figcaption className="image-text">
+                        © Ossi Kajas
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/radioton/PHOTOS_files/Tapani_print_OK-2_960.jpg",
+                                    "TapaniRinne-OssiKajas"
+                                )
+                            }
+                        />
+                    </figcaption>
                     <div className="image-container">
                         <Image
                             layout="intrinsic"
@@ -116,7 +191,17 @@ export default function Press() {
                             height="960"
                         />
                     </div>
-                    <figcaption className="image-text">© Ossi Kajas</figcaption>
+                    <figcaption className="image-text">
+                        © Ossi Kajas
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/radioton/PHOTOS_files/Tapani_print_OK-6042_960.jpg",
+                                    "TapaniRinne-OssiKajas2"
+                                )
+                            }
+                        />
+                    </figcaption>
                     <div className="image-container">
                         <Image
                             layout="intrinsic"
@@ -129,6 +214,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Studio 1851
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/radioton/PHOTOS_files/IMG_1936_studio_1851_500.jpg",
+                                    "TapaniRinne-Studio1851"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -142,6 +235,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         © Tero Ruukki
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/radioton/PHOTOS_files/Rinne-3_960.jpg",
+                                    "TapaniRinne-TeroRuukki"
+                                )
+                            }
+                        />
                     </figcaption>
                     <div className="image-container">
                         <Image
@@ -155,6 +256,14 @@ export default function Press() {
                     </div>
                     <figcaption className="image-text">
                         Arboria © Mikko Koistinen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/radioton/PHOTOS_files/IMG_9820_rbvai9.jpg",
+                                    "TapaniRinne-MikkoKoistinen"
+                                )
+                            }
+                        />
                     </figcaption>
                 </article>
             </main>
