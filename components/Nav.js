@@ -55,7 +55,7 @@ export default function Nav() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://rinnemajamaki.com">
+                                <Link href="/rinnemajamaki">
                                     <a>Rinne &amp; Majamäki</a>
                                 </Link>
                             </li>
