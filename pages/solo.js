@@ -17,6 +17,67 @@ export default function Solo() {
                     <div className="breadcrumb-container"></div>
                 </div>
                 <article>
+                    <div id="grey" className="album">
+                        <p>
+                            <a href="https://tapanirinne.bandcamp.com/album/grey-2">
+                                Grey
+                            </a>
+                        </p>
+                        <div className="album-cover">
+                            <div className="image-container">
+                                <Image
+                                    layout="intrinsic"
+                                    alt="Graphic Design by Juuso Koponen"
+                                    src="/assets/Tapani-Rinne-Grey.jpg"
+                                    width="500"
+                                    height="500"
+                                />
+                            </div>
+                            <figcaption className="image-text">
+                                Graphic Design by Juuso Koponen
+                                <br />
+                                Artwork by Aimo Katajamäki
+                            </figcaption>
+                        </div>
+                        <p>
+                            1. Blackhorn 5:07
+                            <br />
+                            2. Population Clock 7:32
+                            <br />
+                            3. Boson 4:33
+                            <br />
+                            4. Albedo 6:54
+                            <br />
+                            5. Dark Beige 7:52
+                            <br />
+                            6. Out of Tune 11:13
+                            <br />
+                            7. Tuokio 5:27
+                        </p>
+                        <p>
+                            Bass clarinet and effect pedals by Tapani Rinne
+                            <br />
+                            Produced and written by Juha Mäki-Patola and Tapani
+                            Rinne (1)
+                            <br />
+                            Produced and written by Tuomas Norvio and Tapani
+                            rinne (2,3,4,5)
+                            <br />
+                            Produced and written by Pauli Saastamoinen and
+                            Tapani Rinne (6,7)
+                            <br />
+                            Mastered by Pauli Saastamoinen at Finnvox Studios
+                            <br />
+                            Artwork by Aimo Katajamäki
+                            <br />
+                            Graphic design by Juuso koponen
+                            <br />
+                            Signature Dark (SD13) 2023
+                            <br />
+                        </p>
+                    </div>
+                </article>
+                <article>
                     <div id="foghornia" className="album">
                         <p>
                             <a href="https://tapanirinne.bandcamp.com/album/foghornia">
