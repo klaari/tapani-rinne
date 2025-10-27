@@ -41,7 +41,7 @@ export default function Press() {
                         <Image
                             layout="intrinsic"
                             className="image"
-                            alt="© Tero Vuorinen"
+                            alt="© Mika Toivanen"
                             src="/assets/TR_MikaToivanen_vsuvfa.jpg"
                             width="1200"
                             height="900"
@@ -52,7 +52,7 @@ export default function Press() {
                         <DownloadButton
                             handleClick={() =>
                                 saveFile(
-                                    "/assets/MikaToivanen_vsuvfa.jpg",
+                                    "/assets/MikaToivanen.jpg",
                                     "TapaniRinne-MikaToivanen"
                                 )
                             }
@@ -62,7 +62,7 @@ export default function Press() {
                         <Image
                             layout="intrinsic"
                             className="image"
-                            alt="© Tero Vuorinen"
+                            alt="© Pentti Hokkanen"
                             src="/assets/TR_PenttiHokkanen_xgt5fs.jpg"
                             width="1012"
                             height="675"
@@ -73,7 +73,7 @@ export default function Press() {
                         <DownloadButton
                             handleClick={() =>
                                 saveFile(
-                                    "/assets/TR_PenttiHokkanen_xgt5fs.jpg",
+                                    "/assets/TR_PenttiHokkanen.jpg",
                                     "TapaniRinne-PenttiHokkanen"
                                 )
                             }
@@ -94,7 +94,7 @@ export default function Press() {
                         <DownloadButton
                             handleClick={() =>
                                 saveFile(
-                                    "/assets/TR_JoukoVatanen_mmpwuz.jpg",
+                                    "/assets/TR_JoukoVatanen.jpg",
                                     "TapaniRinne-JoukoVatanen"
                                 )
                             }
