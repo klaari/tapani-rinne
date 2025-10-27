@@ -42,6 +42,69 @@ export default function Press() {
                             layout="intrinsic"
                             className="image"
                             alt="© Tero Vuorinen"
+                            src="/assets/TR_MikaToivanen_vsuvfa.jpg"
+                            width="1200"
+                            height="900"
+                        />
+                    </div>
+                    <figcaption className="image-text">
+                        © Mika Toivanen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/MikaToivanen_vsuvfa.jpg",
+                                    "TapaniRinne-MikaToivanen"
+                                )
+                            }
+                        />
+                    </figcaption>
+                    <div className="image-container">
+                        <Image
+                            layout="intrinsic"
+                            className="image"
+                            alt="© Tero Vuorinen"
+                            src="/assets/TR_PenttiHokkanen_xgt5fs.jpg"
+                            width="1012"
+                            height="675"
+                        />
+                    </div>
+                    <figcaption className="image-text">
+                        © Pentti Hokkanen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/TR_PenttiHokkanen_xgt5fs.jpg",
+                                    "TapaniRinne-PenttiHokkanen"
+                                )
+                            }
+                        />
+                    </figcaption>
+                    <div className="image-container">
+                        <Image
+                            layout="intrinsic"
+                            className="image"
+                            alt="© Jouko Vatanen"
+                            src="/assets/TR_JoukoVatanen_mmpwuz.jpg"
+                            width="1016"
+                            height="675"
+                        />
+                    </div>
+                    <figcaption className="image-text">
+                        © Jouko Vatanen
+                        <DownloadButton
+                            handleClick={() =>
+                                saveFile(
+                                    "/assets/TR_JoukoVatanen_mmpwuz.jpg",
+                                    "TapaniRinne-JoukoVatanen"
+                                )
+                            }
+                        />
+                    </figcaption>
+                    <div className="image-container">
+                        <Image
+                            layout="intrinsic"
+                            className="image"
+                            alt="© Tero Vuorinen"
                             src="/assets/TeroVuorinen1_1600.jpg"
                             width="1600"
                             height="1054"
@@ -54,91 +117,6 @@ export default function Press() {
                                 saveFile(
                                     "/assets/TeroVuorinen1.jpg",
                                     "TapaniRinne-TeroVuorinen1"
-                                )
-                            }
-                        />
-                    </figcaption>
-
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Tero Vuorinen"
-                            src="/assets/TeroVuorinen2_1600.jpg"
-                            width="1600"
-                            height="1043"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Tero Vuorinen
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/TeroVuorinen2.jpg",
-                                    "TapaniRinne-TeroVuorinen2"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Antti Aimo-Koivisto"
-                            src="/assets/AnttiAimo-Koivisto_1600.jpg"
-                            width="1600"
-                            height="1039"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Antti Aimo-Koivisto
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/AnttiAimo-Koivisto.jpg",
-                                    "TapaniRinne-AnttiAimo-Koivisto"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Sami Mannerheimo"
-                            src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg"
-                            width="5813"
-                            height="3880"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Sami Mannerheimo
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8805e.jpg",
-                                    "TapaniRinne-SamiMannerheimo"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Sami Mannerheimo"
-                            src="/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8939e.jpg"
-                            width="5611"
-                            height="3746"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Sami Mannerheimo
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/Rinne_Maki-Patola_photo_by_Sami_Mannerheimo-8939e.jpg",
-                                    "TapaniRinne-SamiMannerheimo2"
                                 )
                             }
                         />
@@ -160,90 +138,6 @@ export default function Press() {
                                 saveFile(
                                     "/assets/radioton/PHOTOS_files/25813764758_44329e70ae_k.jpg",
                                     "TapaniRinne-IraAaltonen"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Ossi Kajas"
-                            src="/assets/radioton/PHOTOS_files/Tapani_print_OK-2_960.jpg"
-                            width="960"
-                            height="960"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Ossi Kajas
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/radioton/PHOTOS_files/Tapani_print_OK-2_960.jpg",
-                                    "TapaniRinne-OssiKajas"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Ossi Kajas"
-                            src="/assets/radioton/PHOTOS_files/Tapani_print_OK-6042_960.jpg"
-                            width="960"
-                            height="960"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Ossi Kajas
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/radioton/PHOTOS_files/Tapani_print_OK-6042_960.jpg",
-                                    "TapaniRinne-OssiKajas2"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Studio 1851"
-                            src="/assets/radioton/PHOTOS_files/IMG_1936_studio_1851_500.jpg"
-                            width="500"
-                            height="700"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Studio 1851
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/radioton/PHOTOS_files/IMG_1936_studio_1851_500.jpg",
-                                    "TapaniRinne-Studio1851"
-                                )
-                            }
-                        />
-                    </figcaption>
-                    <div className="image-container">
-                        <Image
-                            layout="intrinsic"
-                            className="image"
-                            alt="© Tero Ruukki"
-                            src="/assets/radioton/PHOTOS_files/Rinne-3_960.jpg"
-                            width="960"
-                            height="1280"
-                        />
-                    </div>
-                    <figcaption className="image-text">
-                        © Tero Ruukki
-                        <DownloadButton
-                            handleClick={() =>
-                                saveFile(
-                                    "/assets/radioton/PHOTOS_files/Rinne-3_960.jpg",
-                                    "TapaniRinne-TeroRuukki"
                                 )
                             }
                         />
