@@ -99,14 +99,14 @@ export default function Solo() {
                             </figcaption>
                         </div>
                         <p>
-                            1. Foghornia
-                            <br /> 2. A Chant
-                            <br /> 3. Kirjurinluoto
-                            <br /> 4. Erottaja
+                            1. Foghornia 8:50
+                            <br /> 2. A Chant 4:50
+                            <br /> 3. Kirjurinluoto 6:25
+                            <br /> 4. Erottaja 3:47
                             <br />
-                            5. Ode to Helsinki
-                            <br /> 6. Polar
-                            <br /> 7. Confirmation
+                            5. Ode to Helsinki 4:03
+                            <br /> 6. Polar 5:28
+                            <br /> 7. Confirmation 5:57
                             <br />
                         </p>
                         <p>

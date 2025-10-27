@@ -14,6 +14,9 @@ export default function Nav() {
                 <a href="https://www.instagram.com/tapanirinne/">
                     <img alt="instagram" src="/assets/icons/instagram.svg" />
                 </a>
+                <a href="https://www.youtube.com/channel/UCPrvDeo4vdr1muG9AvSPEjQ">
+                    <img alt="youtube" src="/assets/icons/youtube.svg" />
+                </a>
                 <a href="https://www.facebook.com/tapanirinnemusic">
                     <img alt="facebook" src="/assets/icons/facebook.svg" />
                 </a>
