@@ -52,7 +52,7 @@ export default function Press() {
                         <DownloadButton
                             handleClick={() =>
                                 saveFile(
-                                    "/assets/MikaToivanen.jpg",
+                                    "/assets/TR_MikaToivanen.jpg",
                                     "TapaniRinne-MikaToivanen"
                                 )
                             }
